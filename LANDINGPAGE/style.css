@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('./Background/Background_image.jpg') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    opacity: 0.8;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    margin-left: 50px;;
+}
+
+.menu a {
+    /* margin: 0 10px; */
+    margin-right: 100px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.social-icons i {
+    margin-right: 10px;
+    color: #333;
+}
+
+.nav2 {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.nav2 .menu a:hover{
+    padding: 15px;
+    background-color: rgb(73, 73, 73);
+    border-radius: 20px;
+    color: white;
+}
+
+.center-text {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width:30%;
+    margin:50px 450px
+}
+
+/* .center-text:hover{
+    padding:100px;
+    background-color: #292828d0;
+    border-radius: 50px;
+    color: rgba(164, 66, 245, 0.959);
+} */
+
+.center-text h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.center-text p {
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.footer-icons i {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    color: #ffffff;
+    margin-right:30px
+}
+
+.center{
+    margin-left: 40%;
+}
+
+
+.services,
+.about-us {
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    margin: 20px 0;
+    width:40%;
+}
+
+.about-us{
+    width:60%;
+}
+
+.services h2,
+.about-us h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.services p,
+.about-us p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.services ul,
+.about-us ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.services li,
+.about-us li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
